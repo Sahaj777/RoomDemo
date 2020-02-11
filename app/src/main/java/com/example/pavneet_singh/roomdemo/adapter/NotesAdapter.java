@@ -57,6 +57,8 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.BeanHolder> 
             itemView.setOnClickListener(this);
             textViewContent = itemView.findViewById(R.id.item_text);
             textViewTitle = itemView.findViewById(R.id.tv_title);
+
+            Log.e("ID ", "doInBackground:::"+textViewTitle);
         }
 
         @Override

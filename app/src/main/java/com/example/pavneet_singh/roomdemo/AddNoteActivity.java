@@ -75,7 +75,7 @@ public class AddNoteActivity extends AppCompatActivity {
             long j = activityReference.get().noteDatabase.getNoteDao().insertNote(note);
             note.setNote_id(j);
             Log.e("ID ", "doInBackground: " + j);
-            Log.e("ID ", "doInBackground:::");
+
             return true;
         }
 
